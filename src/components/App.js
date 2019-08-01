@@ -1,17 +1,13 @@
 import React from 'react';
 
 import './App.css';
-import WheelTypeSelector from './WheelTypeSelector';
-import TimerArea from './TimerArea';
-import ResetButton from './ResetButton';
+import WheelTimer from "./WheelTimer";
 
 function App() {
   return (
     <div className="App">
       <main>
-        <WheelTypeSelector />
-        <TimerArea />
-        <ResetButton />
+        <WheelTimer />
       </main>
       <footer>
         <p>Created by Tim Millard</p>
